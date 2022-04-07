@@ -7,16 +7,38 @@
 /* Selectors tags */
 body {
     background-color: black;
+    font-family: 'Nunito', sans-serif;
+    margin: 10vh 0;
 }
 main {
     background-color: white;
     padding: 50px 15% 0 15%;
-    height: 500px;
+    height: 80vh;
+    width: 90vw;
+    margin: auto;
+}
+h1, h3 {
+    font-weight: bold;
 }
 h1{
-    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     color: #E5316F;
+}
+h3{
+    text-transform: uppercase;
+}
+
+p, span {
+    font-size: 12px;
+}
+p{
+    text-align: center;
+}
+a {
+    color: #3BACE5;
+    text-decoration: none;
 }
 /* Classes styles */
 
@@ -24,4 +46,28 @@ h1{
     content: '';
     display: table;
     clear: both;
+}
+.container {
+    margin: 30px 0;
+}
+.wrapper {
+    background-color: black;
+    color: white;
+    margin-right: 40px;
+    width: calc(100%/3 - 40px);
+    float: left;
+    margin-bottom: 60px;
+    height: 100px;
+}
+
+.wrapper img {
+    height: 100%;
+    width: 100px;
+}
+.float {
+    float: left;
+}
+.col-text {
+    padding: 15px 20px;
+    height: 100px;
 }
